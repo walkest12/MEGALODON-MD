@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~lIpFwIjZ#rQa9U8r_kUZkeGgIISF5BZPZ3lvgOXTFzIZfv5VULOU",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~gdRFzbLa#hacU5GnhLO5JSYiTrA10VqDSI_zRodukpojvdf-_JVM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -20,7 +20,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "***",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
@@ -36,9 +36,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/frns4k.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "🌹𝐋𝐄𝐘  𝐎𝐅  𝐖𝐀𝐑 🩸",
+BOT_NAME: process.env.BOT_NAME || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",
 // add bot name here for menu
-STICKER_NAME: process.env.STICKER_NAME || "🌹𝐋𝐄𝐘  𝐎𝐅  𝐖𝐀𝐑 🩸",
+STICKER_NAME: process.env.STICKER_NAME || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custom emoji react    
@@ -48,7 +48,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "50939279217",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // bot description    
@@ -62,9 +62,9 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // public/private/inbox/group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // kick user if share link 
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // auto voice messages
@@ -74,7 +74,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // show typing status   
